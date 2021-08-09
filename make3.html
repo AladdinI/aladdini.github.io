@@ -11,7 +11,7 @@
 <script>
   formElem.onsubmit = async (e) => {
     e.preventDefault();
-    let response = await fetch('telescope.php', {
+    let response = await fetch('telescope3.php', {
       method: 'POST',
       body: new FormData(formElem)
     });
